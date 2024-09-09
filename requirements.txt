@@ -1,6 +1,6 @@
 Flask==2.1.1                # Web framework for building the application
 opencv-python-headless==4.5.5.62  # For image processing without GUI support
-numpy>=1.22.0                # For numerical operations (updated to avoid conflicts)
+numpy>=1.21.6                # For numerical operations (updated to avoid conflicts)
 scikit-image==0.18.3        # For image quality metrics (SSIM)
 gunicorn==20.1.0            # WSGI server for deployment
 Werkzeug==2.1.1             # WSGI utility library for Flask
